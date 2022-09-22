@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Welcome</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <h1 class="introduction">It takes a ticket to enter...</h1>
+        <form id="form">
+            <label for="fname">What is your name?</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="age">Your age?</label><br>
+            <input type="text" id="age" name="age"><br><br>
+        </form>
+
+        <a onclick="myFunction()" href="main.html">Click Here to Enter...</a>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("form").elements[0].value;
+              document.getElementById("demo").innerHTML = x;
+            }
+
+            setTimeout(myFuncion(), 1000)
+
+        </script>
+
+        
+        <h1 class="parent">Welcome <p class="child" id="demo"></p>!</h1>
+
+<!-- form value cite
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body> -->
+    </body>
+
+
+</html>
