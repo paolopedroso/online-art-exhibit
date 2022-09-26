@@ -111,6 +111,7 @@ nav a:hover {
   }  
   .item-1 {
   grid-column: 1/ span 2;
+
   }
   .item-1 h1 {
     font-size: 30px;
@@ -157,10 +158,12 @@ nav a:hover {
   
 }
 .card .thumb {
-  padding-bottom: 60%;
   background-size: cover;
   background-position: center center;
+  max-width: 100%;
+  max-height: 390px;
 }
+
 
 .card p { 
   flex: 1; /* make p grow to fill available space*/
