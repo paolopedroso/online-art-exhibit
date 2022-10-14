@@ -256,28 +256,3 @@ footer {
   color: rgb(158, 155, 155, 0.7);
 }
 
-.dotted-border {
-  border-style: dashed;
-  border-color: #999;
-  width: 800px;
-  height: 400px;
-  text-align: left;
-  display: inline-block;
-  vertical-align:middle
-}
-
-.contact-p li {
-  padding: 30px;
-  font-weight: 700;
-  font-size: 20px;
-  
-}
-
-.contact-p li a {
-  text-decoration: none;
-  color: black;
-}
-
-.contact-box {
-  padding: 30px;
-}
