@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Paolo Pedroso</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="test.css">
       
     </head>
     <body data-new-gr-c-s-check-loaded="14.1080.0" data-gr-ext-installed="">
@@ -19,113 +19,15 @@
 
       <h1 class="logo"><a style="text-decoration: none;color: black;" href="index.html">paolo.</a></h1>
 
-<script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+      <div class="container">
+        <div class="image">
+          <img src="/assets/img/are-you-real-icon.png">
+        </div>
+        <div class="text">
+          <h1>Paris is one of the most beautiful cities in France.</h1>
+        </div>
+      </div>
 
-<script type="text/p5">
-let font;
-let art;
-var lastMillis = 0;
-var index = 0;
-var message = ' ARE';
-var message1 = ' YOU';
-var message2 = ' REAL';
-var message3 = ' ?';
-var pos = 0;
-var restartDelay = 4;
-
-function preload() {
-  font = loadFont("arial.ttf");
-}
-
-function setup() {
-  createCanvas(600, 600, WEBGL);
-  textFont(font);
-  textSize(windowWidth*0.1);
-  textAlign(LEFT, TOP);
-  art = createGraphics(400, 400);
-  background(250);
-  frameRate(30);
-}
-
-function draw() {
-  pos = pos + 0.1;
-  orbitControl(3,3,0);
-  lights();
-  rotateY(-0.5 + frameCount*-0.001);
-  rotateX(-0.5);
-  let locX = mouseX - height / 2;
-  let locY = mouseY - width / 2;
-
-  ambientLight(50);
-  directionalLight(255, 0, 0, 0.25, 0.25, 0);
-  pointLight(0, 0, 255, locX, locY, 250);
-  //texture(art);
-
-  
-  push();
-  textAlign(TOP, LEFT)
-  //rotateY(frameCount*-0.01);
-  translate(-85, 0, 105);
-  textSize(50);
-  text(message.substring(0, pos + 1), 0, 0);
-
-  if (pos > message.length + restartDelay) {
-  //restart animation
-    pos = 0;
-  }
-  pop();
-
-  push();
-  textAlign(TOP, LEFT)
-  translate(105,0,80);
-  rotateY(HALF_PI);
-  //rotateY(frameCount*-0.01);
-  textSize(50);
-  text(message1.substring(0, pos + 1), 0, 0);
-
-  if (pos > message1.length + restartDelay) {
-  //restart animation
-    pos = 0;
-  }
-  pop();
-  
-  push();
-  textAlign(TOP, LEFT)
-  translate(100,0,-105);
-  rotateY(PI);
-  //rotateY(frameCount*-0.01);
-  textSize(50);
-  text(message2.substring(0, pos + 1), 0, 0);
-
-  if (pos > message2.length + restartDelay) {
-  //restart animation
-    pos = 0;
-  }
-  pop();
-  
-  push();
-  textAlign(TOP, LEFT)
-  translate(-105,30,-80);
-  rotateY(HALF_PI + PI);
-  //rotateY(frameCount*-0.01);
-  textSize(100);
-  text(message3.substring(0, pos + 1), 0, 0);
-
-  if (pos > message3.length + restartDelay) {
-  //restart animation
-    pos = 0;
-  }
-  pop();
-  
-  push();
-  //rotateY(frameCount*-0.01);
-  specularMaterial(0);
-  box(200,200,200);
-  pop();
-}
-
-
-</script>
     </body>
 
 
