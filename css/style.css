@@ -281,3 +281,9 @@ footer {
 .contact-box {
   padding: 30px;
 }
+
+.about-me {
+  font-weight: 300;
+  font-size: 30px;
+  padding: 30px;
+}
