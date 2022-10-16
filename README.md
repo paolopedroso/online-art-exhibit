@@ -1,6 +1,6 @@
 # [bypaolo.net](https://bypaolo.net)
 
-![image](./assets/other/demo-art.mov)   
+![image](./assets/other/demo-gif.gif)   
 
 a personal project made to share coded art publicly.
 fully responsive art exhibit where you can click on each artwork to interact with.
