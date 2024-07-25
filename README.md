@@ -4,13 +4,8 @@
 
 ---
 
-a personal project made to share some of my personal coded art publicly.
-fully responsive art exhibit where you can click on each artwork to interact with.
-
-many artworks were inpired from the creators on [p5.js](https://p5js.org) and [openprocessing.com](https://openprocessing.com).
-
+This personal project showcases my coded art in a fully responsive online exhibit, where each artwork is interactive and engaging. Many of these pieces are inspired by the innovative creators on [p5.js](https://p5js.org) and [openprocessing.com](https://openprocessing.com), reflecting a blend of creativity and technology.
 
 ---
 
-please give it a look around, [file issues](https://github.com/paolopedroso/online-art-exhibit/issues), and send feedbacks to **my email: paoloapedroso@gmail.com**. thank you!
-
+I invite you to explore the exhibit, interact with the artworks, and immerse yourself in this digital art collection. Feel free to [file issues](https://github.com/paolopedroso/online-art-exhibit/issues) or send feedback to **paoloapedroso@gmail.com**. Thank you for visiting!
