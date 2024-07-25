@@ -4,7 +4,7 @@
 
 ---
 
-This personal project showcases my coded art in a fully responsive online exhibit, where each artwork is interactive and engaging. Many of these pieces are inspired by the innovative creators on [p5.js](https://p5js.org) and [openprocessing.com](https://openprocessing.com), reflecting a blend of creativity and technology.
+This personal project showcases my coded art in a fully responsive online exhibit, where each artwork is interactive and engaging. Many of these pieces are inspired by the innovative creators on [p5.js](https://p5js.org) and [openprocessing.com](https://openprocessing.com), reflecting a blend of creativity and technology. This project also highlights my experience in HTML, CSS, and JavaScript, utilizing p5.js in several artworks.
 
 ---
 
